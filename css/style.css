@@ -1,0 +1,200 @@
+/* RESET */
+* {
+    margin: 300;
+    padding: 300;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 201, 139);;
+    color: #000;
+    line-height: 1.5;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.cta button {
+    background-color: #741104;
+    color: rgb(255, 255, 255);;;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgb(241, 201, 139);
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-view-menu {
+    background-color: #741104;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-img img {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* DIFERENCIAIS */
+.diferenciais {
+    padding: 40px 20px;
+    background: rgb(241, 201, 139);;
+    text-align: center;
+}
+
+.diferenciais h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(255, 255, 255);;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* DEPOIMENTOS */
+.depoimentos {
+    background: rgb(241, 201, 139);;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    margin-bottom: 30px;
+}
+
+.depoimentos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.depoimento {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-style: italic;
+}
+
+/* MAIS PEDIDOS */
+.mais-pedidos {
+    padding: 40px 20px;
+    background: rgb(241, 201, 139);;;
+    text-align: center;
+}
+
+.mais-pedidos h2 {
+    margin-bottom: 30px;
+}
+
+.mais-pedidos .cards {
+    justify-content: center;
+}
+
+.mais-pedidos .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.mais-pedidos .card button {
+    background-color: #741104;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CONTATO */
+.contato {
+    background: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #741104;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.icon {
+  font-size: 40px;
+  color: #741104;
+  margin-bottom: 10px;
+}
